@@ -1,0 +1,31 @@
+# Beam files (compiled Erlang files)
+*.beam
+
+# Erlang release files
+rebar3.crashdump
+rel/
+
+# Logs and crash dumps
+*.crashdump
+*.log
+
+# Erlang shell history
+.erlang.cookie
+.history
+
+# IDE and editor specific files
+.idea/
+.vscode/
+*.swp
+*~
+
+# Build tools and dependency files
+_build/
+deps/
+
+# Temporary files
+*.bak
+*.tmp
+*.sw?
+.DS_Store
+Thumbs.db
